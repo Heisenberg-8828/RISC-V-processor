@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Mar 18 18:34:25 2024
+# Process ID: 4048
+# Current directory: C:/Users/Sumit/Desktop/SSV_FPGA/research_on_RISC-V/research_on_RISC-V.runs/synth_1
+# Command line: vivado.exe -log Pipeline_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Pipeline_top.tcl
+# Log file: C:/Users/Sumit/Desktop/SSV_FPGA/research_on_RISC-V/research_on_RISC-V.runs/synth_1/Pipeline_top.vds
+# Journal file: C:/Users/Sumit/Desktop/SSV_FPGA/research_on_RISC-V/research_on_RISC-V.runs/synth_1\vivado.jou
+# Running On: sumit, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 4, Host memory: 8327 MB
+#-----------------------------------------------------------
+source Pipeline_top.tcl -notrace

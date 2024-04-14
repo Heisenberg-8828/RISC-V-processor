@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../research_on_RISC-V.srcs/sources_1/new/ALU.v" \
+"../../../../research_on_RISC-V.srcs/sources_1/new/ALU_Decoder.v" \
+"../../../../research_on_RISC-V.srcs/sources_1/new/Control_Unit_Top.v" \
+"../../../../research_on_RISC-V.srcs/sources_1/new/Decode_Cycle.v" \
+"../../../../research_on_RISC-V.srcs/sources_1/new/Execute_Cycle.v" \
+"../../../../research_on_RISC-V.srcs/sources_1/new/Fetch_Cycle.v" \
+"../../../../research_on_RISC-V.srcs/sources_1/new/Main_Decoder.v" \
+"../../../../research_on_RISC-V.srcs/sources_1/new/Memory_Cycle.v" \
+"../../../../research_on_RISC-V.srcs/sources_1/new/Mux.v" \
+"../../../../research_on_RISC-V.srcs/sources_1/new/PC.v" \
+"../../../../research_on_RISC-V.srcs/sources_1/new/PC_Adder.v" \
+"../../../../research_on_RISC-V.srcs/sources_1/new/Pipeline_Top.v" \
+"../../../../research_on_RISC-V.srcs/sources_1/new/Register_File.v" \
+"../../../../research_on_RISC-V.srcs/sources_1/new/Sign_Extend.v" \
+"../../../../research_on_RISC-V.srcs/sources_1/new/Writeback_Cycle.v" \
+"../../../../research_on_RISC-V.srcs/sim_1/new/pipeline.tb" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
